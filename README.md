@@ -16,11 +16,14 @@ Make sure you have a working pack by:-
 
 - cd into client ```npm init -y```
 - cd into server ```npm init - y``` 
-- to spin-up the front-end server ```npm run-start-client```
-- the server side ```npm run start-server``` works mongo-db database not set-up
+- to spin-up the front-end server cd into client folder ```npm run-start```
+- the server side ```node server.js``` works mongo-db database not set-up
 - proxy for backend is port:5000
 - proxy for frontend is port:3000
 - ```pkill node 3000 or 5000``` if you find the ports already in use when you switch from one project to another.
+
+NOTE: THE 2 DIRECTORIES SERVER AND CLIENT ARE NOT CONNECTED YET - cd into client and run start script/ ditto with server
+
 
 # Team authors branch
 - Then check out of the main branch to the team-authors branch

@@ -23,7 +23,7 @@ Dependencies:
 **Express Server** 
 npm init -y
 npm install -D  express nodemon concurrently(server dependencies)
-npm install -D cors dotenv path body-parser helmet express-rate-limiter(server-side security)
+npm install -D cors dotenv path body-parser helmet(server-side security)
 
 **MongoDB**
 npm install -D  mongoose mongodb (database dependencies)
